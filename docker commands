@@ -1,0 +1,138 @@
+docker - to check all available docker commands
+
+docker version - to show docker version
+
+docker info - displays system-wide information
+
+docker pull - to pull the docker image from docker hub repository
+
+docker build - to build docker image from Dockerfile
+
+docker run - run a container from a docker image
+
+docker commit - to commit a change in container file or create new Docker image
+
+docker ps - list all running containers. Add -a flag to list all containers (running & exited)
+
+docker start - to start a docker container
+
+docker stop - to stop a docker container
+
+docker logs - to view logs for a docker container
+
+Docker rename - to rename Docker container
+
+Docker rm - to remove Docker container. Stop it first and then remove it.
+
+Image Commands
+
+Docker build - to build Docker image from Dockerfile.
+
+Docker pull - to pull Docker image from Docker Hub Repository/registry.
+
+Docker tag - to add tag to Docker image
+
+Docker images - to list Docker images
+
+Docker push - to push Docker images to repository.   
+
+Docker history - to show history of Docker image
+
+Docker inspect - to show complete information in JSON format.
+
+Docker save - to also save our existing Docker image   
+
+Docker import - create Docker image from tarball
+
+Docker export - to export existing Docker container
+
+Docker load - to load Docker image from file or archives
+
+Docker rmi - to remove Docker images
+
+Container Commands
+
+Docker start - to start a Docker container
+
+Docker stop - to stop a running Docker container
+
+Docker restart - to restart container
+
+Docker pause - to pause a running container
+
+Docker run - creates a Docker container from Docker image
+
+Docker ps - to list Docker containers
+
+Docker exec - to access the shell of Docker container
+
+Docker logs - to view logs of Docker container   
+
+Docker rename - to rename Docker container
+
+Docker rm - to remove Docker container
+
+Docker inspect - Docker container info command
+
+Docker attach - attach terminal to running container
+
+Docker kill - to stop and remove Docker car containers
+
+Docker cp - to copy files or folders b/w a container and from local filesystems
+
+Compose Commands
+
+Docker-compose build - build Docker compose file
+
+Docker-compose up - to run Docker compose file
+
+Docker-compose ls - to list Docker images declared inside Docker compose file
+
+Docker-compose start - to start containers which are already created using Docker compose file
+
+Docker-compose run - to run one of applications inside Docker compose yaml
+
+Docker-compose rm - to remove Docker containers from Docker compose.
+
+Docker-compose ps - to check Docker container status from Docker compose.   
+
+Volume Commands
+
+Docker volume create - to create Docker volume
+
+Docker volume inspect - to inspect Docker volume
+
+Docker volume rm - to remove Docker volume.
+
+Docker Hub Commands   
+
+Docker search ubuntu - to search Docker image
+
+Docker pull ubuntu - to pull image from Docker Hub.
+
+Docker push forstechx/node-todo-docker - push the Docker image again.
+
+Docker logout - to logout from Docker Hub registry.
+
+Logs & Monitoring Commands 
+
+Docker ps -a - to show running & stopped containers
+
+Docker logs - to show Docker container logs
+
+Docker events - to get all events of Docker container
+
+Docker top - to show running processes in Docker container   
+
+Docker stats - to check CPU, memory & I/O usage
+
+Docker port - to show Docker container's public ports
+
+Networking Commands
+
+Docker network create - to create Docker network
+
+Docker network ls - to list Docker networks
+
+Docker network inspect - to view network configuration details
+
